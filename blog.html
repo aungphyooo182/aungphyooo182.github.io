@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
+  <title>B O R N</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    /* Add a gray background color with some padding */
+    body {
+      font-family: Arial;
+      padding: 20px;
+      background: #f1f1f1;
+    }
+
+    /* Header/Blog Title */
+    .header {
+      background-color: #9bb642;
+      color: #f3f6e8;
+      font-family: 'Great Vibes', cursive;
+      border-radius: 5px;
+      text-shadow: 2px 2px 4px #000000;
+      box-shadow: 3px 3px #acca49;
+      padding: 30px;
+      font-size: 40px;
+      text-align: center;
+    }
+
+    /* Create two unequal columns that floats next to each other */
+    /* Left column */
+    .leftcolumn {
+      float: left;
+      width: 75%;
+    }
+
+    /* Right column */
+    .rightcolumn {
+      float: left;
+      width: 25%;
+      padding-left: 20px;
+    }
+
+    /* Fake image */
+    .fakeimg {
+      background-color: #aaa;
+      width: 100%;
+      padding: 20px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    /* Add a card effect for articles */
+    .card {
+      background-color: #fcce36;
+      color: #455d51;
+      padding: 20px;
+      margin-top: 20px;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Footer */
+    .footer {
+      padding: 20px;
+      text-align: center;
+      background: #ddd;
+      margin-top: 20px;
+    }
+
+    /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 800px) {
+
+      .leftcolumn,
+      .rightcolumn {
+        width: 100%;
+        padding: 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="header">
+    <h1>Beleive It Or Not</h1>
+  </div>
+
+  <div class="row">
+    <div class="leftcolumn">
+      <div class="card">
+        <h2>People That Walk Fast Are Reported To Be Less Happy</h2>
+        <h5>The faster you walk the more unhappy you are.</h5>
+        <p>Are you the type of person that walks fast or slow? Well, based on a new study, walking fast is reported to
+          be tied to how unhappy you are.</p>
+          <div style="text-align: center;">
+            <img src="https://thumbs.gfycat.com/FoolhardyLinearFreshwatereel-size_restricted.gif" alt="Slow Down"
+            style="width: 80%;height:auto;">
+        <p>
+          The study says that people who walk fast tend to be the type of people that are intense and easily get
+          unhappy.
+        </p>
+        <p>
+          These people often prioritize getting things done as their life’s goal and tend to ignore their happiness,
+          focusing on getting things that will never be done and have trouble controlling their emotions.
+        </p>
+        <p>
+          People that walk fast are also often perfectionists and able to tell work and personal issues apart. They also
+          seldom take a break and unwind.
+        </p>
+        <p>
+          Compared to people who walk slow, they are usually the type of people that are more introverted, cautious and
+          have difficulty making friends; but tend to be more optimistic and easier to satisfy.
+        </p>
+        <div style="text-align: center;">
+          <img src="https://media.giphy.com/media/3o6Zt3NI3hLqP6m0YE/giphy.gif" alt="Slow Down"
+          style="width: 80%;height:auto;">
+
+        </div>
+        
+        <p>
+          Are you the type of person that walks fast or slow? Send this to your fast walking friends and family and ask
+          them to slow down a little!
+        </p>
+      </div>
+    </div>
+    <div class="rightcolumn">
+      <div class="card">
+        <h2>About Us</h2>
+        <img src="https://img.jakpost.net/c/2018/07/17/2018_07_17_49413_1531807542._large.jpg" alt="BORN"
+          style="width:200px;margin:0 auto; margin-bottom: 10px;;">
+        <p>We want to share something wierd, strange, wonderful with you. World is wonderful and life is short.</p>
+      </div>
+      <div class="card">
+        <h3>Popular Post</h3>
+        <div class="fakeimg">Image</div><br>
+        <div class="fakeimg">Image</div><br>
+        <div class="fakeimg">Image</div>
+      </div>
+      <div class="card">
+        <h3>Follow Me</h3>
+        <p>Some text..</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">Aung Phyo Oo</a></p>
+  </div>
+
+</body>
+
+</html>
